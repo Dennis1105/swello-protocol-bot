@@ -1,0 +1,24 @@
+{
+  "name": "Swello Protocol Bot",
+  "version": "1.0.0",
+  "description": "Swello Protocol Bot",
+  "main": "index.js",
+  "author": "Fullstack124",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.5",
+    "ethers-proxies": "^1.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^6.3.3",
+    "node-cron": "^3.0.0",
+    "winston": "^3.7.2"
+  }
+}
